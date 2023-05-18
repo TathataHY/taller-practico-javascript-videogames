@@ -190,7 +190,7 @@ function lvlFail() {
 }
 
 function setCanvasSize() {
-  const canvasSize = Math.min(window.innerHeight, window.innerWidth) * 0.75;
+  const canvasSize = Math.min(window.innerHeight, window.innerWidth) * 0.7;
 
   canvas.width = canvasSize;
   canvas.height = canvasSize;
